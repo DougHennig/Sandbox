@@ -1,0 +1,7 @@
+<solution>
+	<projects>
+		<project name="demo1.pjx" buildaction="3" recompile="false" displayerrors="true" regenerate="false" runafterbuild="false" outputfile="Demo1.exe" />
+		<project name="demo2.pjx" buildaction="4" recompile="false" displayerrors="true" regenerate="false" runafterbuild="false" outputfile="Demo2.dll" />
+	</projects>
+	<versioncontrol class="GitOperations" library="ProjectExplorerEngine.vcx" convclass="BinaryToTextConversionFoxBin2PRG" convlibrary="ProjectExplorerEngine.vcx" convpath="D:\DEVELOPMENT\TOOLS\THOR\Thor\Tools\Components\FoxBin2Prg\" repository="D:\Project Explorer Demo" includeinversioncontrol="2" autocommit="false" fileaddmessage="Added file" fileremovemessage="Removed file" cleanupmessage="Project cleanup" savedsolutionmessage="Solution settings changed" buildmessage="Built the project: version {Project.VersionNumber}" />
+</solution>

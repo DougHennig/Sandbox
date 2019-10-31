@@ -1,0 +1,2 @@
+SELECT Customers_a.*;
+ FROM test!customers Customers_a
