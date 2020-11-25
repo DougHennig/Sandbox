@@ -22,7 +22,7 @@ ENDDEFINE
 DEFINE CLASS form1 AS form 
  	*< CLASSDATA: Baseclass="form" Timestamp="" Scale="" Uniqueid="" />
 
-	Caption = "Form"
+	Caption = "Form Test"
 	DoCreate = .T.
 	Name = "FORM1"
 	
