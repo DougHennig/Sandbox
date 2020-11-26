@@ -1,1 +1,2 @@
+* Test
 DO D:\Development\VFPX\ProjectExplorer\ProjectExplorer.app
