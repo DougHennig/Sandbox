@@ -1,2 +1,1 @@
-* Test more comments
 DO D:\Development\VFPX\ProjectExplorer\ProjectExplorer.app
