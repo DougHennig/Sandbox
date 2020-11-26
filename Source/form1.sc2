@@ -22,9 +22,22 @@ ENDDEFINE
 DEFINE CLASS form1 AS form 
  	*< CLASSDATA: Baseclass="form" Timestamp="" Scale="" Uniqueid="" />
 
+	*-- OBJECTDATA items order determines ZOrder / El orden de los items OBJECTDATA determina el ZOrder 
+	*< OBJECTDATA: ObjPath="Check1" UniqueID="" Timestamp="" />
+
 	Caption = "Form"
 	DoCreate = .T.
 	Name = "FORM1"
+
+	ADD OBJECT 'Check1' AS checkbox WITH ;
+		Alignment = 0, ;
+		Caption = "Check1", ;
+		Height = 17, ;
+		Left = 55, ;
+		Name = "Check1", ;
+		Top = 30, ;
+		Width = 60
+		*< END OBJECT: BaseClass="checkbox" />
 	
 	PROCEDURE Load
 		* test form
