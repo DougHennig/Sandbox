@@ -84,7 +84,7 @@
 			<INDEXES>
 				<INDEX>
 					<Name>field1</Name>
-					<Comment>Index comment</Comment>
+					<Comment></Comment>
 					<IsUnique>.F.</IsUnique>
 				</INDEX>
 			</INDEXES>
