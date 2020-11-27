@@ -45,7 +45,7 @@ DEFINE CLASS form1 AS form
 		Height = 24, ;
 		Left = 210, ;
 		Name = "Combo1", ;
-		Top = 30, ;
+		Top = 31, ;
 		Width = 100
 		*< END OBJECT: BaseClass="combobox" />
 

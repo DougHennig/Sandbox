@@ -69,6 +69,7 @@ WITH loProject.FILES
 	.ADD('system.exe')		&& *< FileMetadata: Type="Z" Cpid="0" Timestamp="0" ID="0" ObjRev="0" User="" DevInfo="XzRXRDExUUxWSQ==" />
 	.ADD('vfpcompression.fll')		&& *< FileMetadata: Type="L" Cpid="0" Timestamp="0" ID="0" ObjRev="0" User="" DevInfo="XzRXRDExUUxWSw==" />
 	.ADD('xxx.vcx')		&& *< FileMetadata: Type="V" Cpid="0" Timestamp="0" ID="0" ObjRev="544" User="" DevInfo="XzU3QjBXTk0yUg==" />
+	.ADD('åñaññátá.dbf')		&& *< FileMetadata: Type="D" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" User="" DevInfo="XzVVMzBPMVExTQ==" />
 	*</BuildProj>
 
 	.ITEM('__newproject.f2b').Remove()
@@ -83,6 +84,7 @@ WITH loProject.FILES
 	.ITEM(lcCurdir + 'source\label1.lbx').Exclude = .T.
 	.ITEM(lcCurdir + 'system.exe').Exclude = .T.
 	.ITEM(lcCurdir + 'vfpcompression.fll').Exclude = .T.
+	.ITEM(lcCurdir + 'åñaññátá.dbf').Exclude = .T.
 	*</ExcludedFiles>
 
 	*<TextFiles>
