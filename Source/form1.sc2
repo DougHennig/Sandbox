@@ -24,6 +24,7 @@ DEFINE CLASS form1 AS form
 
 	*-- OBJECTDATA items order determines ZOrder / El orden de los items OBJECTDATA determina el ZOrder 
 	*< OBJECTDATA: ObjPath="Check1" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Command1" UniqueID="" Timestamp="" />
 
 	Caption = "Form"
 	DoCreate = .T.
@@ -38,6 +39,15 @@ DEFINE CLASS form1 AS form
 		Top = 30, ;
 		Width = 60
 		*< END OBJECT: BaseClass="checkbox" />
+
+	ADD OBJECT 'Command1' AS commandbutton WITH ;
+		Caption = "Command1", ;
+		Height = 27, ;
+		Left = 255, ;
+		Name = "Command1", ;
+		Top = 155, ;
+		Width = 84
+		*< END OBJECT: BaseClass="commandbutton" />
 	
 	PROCEDURE Load
 		* test form
