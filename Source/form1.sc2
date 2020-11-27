@@ -25,7 +25,6 @@ DEFINE CLASS form1 AS form
 	*-- OBJECTDATA items order determines ZOrder / El orden de los items OBJECTDATA determina el ZOrder 
 	*< OBJECTDATA: ObjPath="Check1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Command1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Command1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Combo1" UniqueID="" Timestamp="" />
 
 	Caption = "Form"
@@ -42,14 +41,13 @@ DEFINE CLASS form1 AS form
 		Width = 60
 		*< END OBJECT: BaseClass="checkbox" />
 
-	ADD OBJECT 'Command1' AS commandbutton WITH ;
-		Caption = "Command1", ;
-		Height = 27, ;
-		Left = 255, ;
-		Name = "Command1", ;
-		Top = 155, ;
-		Width = 84
-		*< END OBJECT: BaseClass="commandbutton" />
+	ADD OBJECT 'Combo1' AS combobox WITH ;
+		Height = 24, ;
+		Left = 210, ;
+		Name = "Combo1", ;
+		Top = 30, ;
+		Width = 100
+		*< END OBJECT: BaseClass="combobox" />
 
 	ADD OBJECT 'Command1' AS commandbutton WITH ;
 		Caption = "Command1", ;
@@ -59,14 +57,6 @@ DEFINE CLASS form1 AS form
 		Top = 90, ;
 		Width = 84
 		*< END OBJECT: BaseClass="commandbutton" />
-
-	ADD OBJECT 'Combo1' AS combobox WITH ;
-		Height = 24, ;
-		Left = 210, ;
-		Name = "Combo1", ;
-		Top = 30, ;
-		Width = 100
-		*< END OBJECT: BaseClass="combobox" />
 	
 	PROCEDURE Load
 		* test form
