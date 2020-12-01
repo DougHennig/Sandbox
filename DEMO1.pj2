@@ -68,7 +68,6 @@ WITH loProject.FILES
 	.ADD('source\startup.prg')		&& *< FileMetadata: Type="P" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" User="" DevInfo="XzU3QjBXUUdOSQ==" />
 	.ADD('system.exe')		&& *< FileMetadata: Type="Z" Cpid="0" Timestamp="0" ID="0" ObjRev="0" User="" DevInfo="XzRXRDExUUxWSQ==" />
 	.ADD('vfpcompression.fll')		&& *< FileMetadata: Type="L" Cpid="0" Timestamp="0" ID="0" ObjRev="0" User="" DevInfo="XzRXRDExUUxWSw==" />
-	.ADD('xx.txt')		&& *< FileMetadata: Type="T" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" User="" DevInfo="XzVYODBWWFQ2UA==" />
 	.ADD('xxx.vcx')		&& *< FileMetadata: Type="V" Cpid="0" Timestamp="0" ID="0" ObjRev="544" User="" DevInfo="XzU3QjBXTk0yUg==" />
 	.ADD('åñaññátá.dbf')		&& *< FileMetadata: Type="D" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" User="" DevInfo="XzVVMzBPMVExTQ==" />
 	*</BuildProj>
