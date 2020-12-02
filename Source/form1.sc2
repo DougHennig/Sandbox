@@ -41,15 +41,11 @@ DEFINE CLASS form1 AS form
 		*< END OBJECT: BaseClass="checkbox" />
 
 	ADD OBJECT 'Command1' AS commandbutton WITH ;
-		 = , ;
-		 = =====, ;
-		 = , ;
-		Caption = "ProjExp", ;
 		Caption = "Yada", ;
 		Height = 27, ;
-		Left = 55, ;
+		Left = 210, ;
 		Name = "Command1", ;
-		Top = 90, ;
+		Top = 25, ;
 		Width = 84
 		*< END OBJECT: BaseClass="commandbutton" />
 	
