@@ -43,9 +43,9 @@ DEFINE CLASS form1 AS form
 	ADD OBJECT 'Command1' AS commandbutton WITH ;
 		Caption = "Yada", ;
 		Height = 27, ;
-		Left = 210, ;
+		Left = 175, ;
 		Name = "Command1", ;
-		Top = 25, ;
+		Top = 90, ;
 		Width = 84
 		*< END OBJECT: BaseClass="commandbutton" />
 	
